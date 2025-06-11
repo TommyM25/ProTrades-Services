@@ -1,137 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pro Trades & Services LLC</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background-color: #0f172a;
-      color: lightblue;
-      padding: 20px;
-      text-align: center;
-    }
-    header img {
-      width: 200px;
-      margin-bottom: 10px;
-    }
-    nav {
-      background: #1e293b;
-      text-align: center;
-      padding: 10px 0;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: 600;
-    }
-    .hero {
-      background-color: #e2e8f0;
-      text-align: center;
-      padding: 40px 20px;
-    }
-    .hero h1 {
-      font-size: 3rem;
-    }
-    .hero-gallery {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-      margin-top: 20px;
-    }
-    .hero-gallery img {
-      width: 300px;
-      border-radius: 12px;
-    }
-    .section {
-      padding: 40px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .gallery img {
-      width: 100%;
-      border-radius: 12px;
-    }
-    footer {
-      background: #1e293b;
-      color: blue;
-      text-align: center;
-      padding: 20px;
-      margin-top: 40px;
-    }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background-color: #002b5c; color: white; padding: 20px; text-align: center; }
+    .logo { max-width: 200px; }
+    nav { background-color: #004080; padding: 10px; text-align: center; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; }
+    .section { padding: 20px; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+    .gallery img { width: 100%; height: auto; border: 2px solid #ccc; }
+    footer { background-color: #002b5c; color: white; text-align: center; padding: 10px; }
   </style>
 </head>
 <body>
   <header>
-    <img src="IMG_4399.jpeg" alt="Pro Trades & Services LLC Logo">
+    <img src="IMG_4397.jpg" alt="Pro Trades & Services LLC Logo" class="logo">
     <h1>Pro Trades & Services LLC</h1>
-    <p>Expert Home Remodeling Solutions</p>
+    <p><em>No job Too Big or Too Small, We do it all</em></p>
+    <p>Home Remodeling & Renovation Experts</p>
   </header>
 
   <nav>
     <a href="#about">About</a>
-    <a href="#services">Services</a>
     <a href="#gallery">Gallery</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <section class="hero">
-    <h1>Transforming Homes with Quality Craftsmanship</h1>
-    <p>Trusted Remodeling Services Across the South of Georgia and Parts of Alabama</p>
-    <div class="hero-gallery">
-      <img src="TM.jpeg" alt="In-progress remodel">
-      <img src="TM4.jpeg" alt="After renovation">
-    </div>
-  </section>
-
-  <section class="section" id="about">
+  <section id="about" class="section">
     <h2>About Us</h2>
-    <p>Pro Trades & Services LLC is a home remodeling company dedicated to delivering high-quality renovations with professional service and attention to detail. From kitchens to bathrooms to any room, flooring to full-home remodels, we turn your vision into reality.</p>
+    <p>Pro Trades & Services LLC specializes in home remodeling, renovations, and construction. With years of experience and dedication to quality craftsmanship, we transform homes with professionalism and attention to detail.</p>
   </section>
 
-  <section class="section" id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Kitchen Remodeling</li>
-      <li>Bathroom Renovations</li>
-      <li>Basement Finishing</li>
-      <li>Flooring Installation</li>
-      <li>Painting & Drywall</li>
-      <li>Custom Carpentry</li>
-      We do it all, Call Murdock
-    </ul>
-  </section>
-
-  <section class="section" id="gallery">
-    <h2>Project Gallery</h2>
+  <section id="gallery" class="section">
+    <h2>Our Work</h2>
     <div class="gallery">
-    <img src="https://your-image-host.com/path/to/TM.jpeg" alt="In-progress remodel">
-      <img src="tm2.jpeg" alt="Drywall installation and framing by Pro Trades & Services">
-      <img src="TM5.jpeg" alt="Before renovation: exterior ramp and siding">
-      <img src="TM4.jpeg" alt="After renovation: new porch and siding by Pro Trades & Services">
+      <img src="TM.jpeg" alt="Work in Progress 1">
+      <img src="tm2.jpeg" alt="Finished Interior 1">
+      <img src="TM4.jpeg" alt="New Exterior Deck">
+      <img src="TM5.jpeg" alt="Old Exterior Ramp">
     </div>
   </section>
 
-  <section class="section" id="contact">
+  <section id="contact" class="section">
     <h2>Contact Us</h2>
-    <p>Email: Murdockdrywall19@gmail.com</p>
-    <p>Phone: 678-416-3693</p>
-    <p>Serving: Metro Atlanta and surrounding areas</p>
+    <p>Phone: 678-416-7359</p>
+    <p>Email: Murdockdrywall19@gmail.com.com</p>
   </section>
 
   <footer>
