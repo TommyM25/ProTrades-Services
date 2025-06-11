@@ -19,6 +19,10 @@
       padding: 20px;
       text-align: center;
     }
+    header img {
+      width: 200px;
+      margin-bottom: 10px;
+    }
     nav {
       background: #1e293b;
       text-align: center;
@@ -31,13 +35,23 @@
       font-weight: 600;
     }
     .hero {
-      background: url('your-hero-image.jpg') center/cover no-repeat;
-      color: black;
+      background-color: #e2e8f0;
       text-align: center;
-      padding: 80px 20px;
+      padding: 40px 20px;
     }
     .hero h1 {
       font-size: 3rem;
+    }
+    .hero-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .hero-gallery img {
+      width: 300px;
+      border-radius: 12px;
     }
     .section {
       padding: 40px 20px;
@@ -64,6 +78,7 @@
 </head>
 <body>
   <header>
+    <img src="IMG_4399.jpeg" alt="Pro Trades & Services LLC Logo">
     <h1>Pro Trades & Services LLC</h1>
     <p>Expert Home Remodeling Solutions</p>
   </header>
@@ -78,6 +93,10 @@
   <section class="hero">
     <h1>Transforming Homes with Quality Craftsmanship</h1>
     <p>Trusted Remodeling Services Across the South of Georgia and Parts of Alabama</p>
+    <div class="hero-gallery">
+      <img src="TM.jpeg" alt="In-progress remodel">
+      <img src="TM4.jpeg" alt="After renovation">
+    </div>
   </section>
 
   <section class="section" id="about">
@@ -94,12 +113,17 @@
       <li>Flooring Installation</li>
       <li>Painting & Drywall</li>
       <li>Custom Carpentry</li>
-    We do it all, Call Murdock</ul>
+      We do it all, Call Murdock
+    </ul>
   </section>
 
   <section class="section" id="gallery">
     <h2>Project Gallery</h2>
     <div class="gallery">
+    <img src="https://your-image-host.com/path/to/TM.jpeg" alt="In-progress remodel">
+      <img src="tm2.jpeg" alt="Drywall installation and framing by Pro Trades & Services">
+      <img src="TM5.jpeg" alt="Before renovation: exterior ramp and siding">
+      <img src="TM4.jpeg" alt="After renovation: new porch and siding by Pro Trades & Services">
     </div>
   </section>
 
